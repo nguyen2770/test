@@ -1,0 +1,18 @@
+.notification-drawer-container {
+    .notification-title {}
+
+    .notification-item-card {
+        margin-top: 10px;
+
+        .ant-card-body {
+            padding: 8px !important;
+            border-radius: 8px !important;
+        }
+    }
+
+    .notification-item-card-not-view {
+        .ant-card-body {
+            background-color: #eee !important;
+        }
+    }
+}

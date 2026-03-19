@@ -1,0 +1,307 @@
+[33mcommit fbac727f117caaee787753fca0009627ae51fa1d[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 40fabb0 56d908b
+Author: Sonpn <apnpsolution@gmail.com>
+Date:   Tue Jul 8 09:19:04 2025 +0700
+
+    a
+
+[33mcommit 56d908b1db8d92552d0e190265b0b68384c8f338[m
+Merge: e167acf e2c11c4
+Author: truong0810 <truong8488@gmail.com>
+Date:   Sat Jul 5 10:21:56 2025 +0700
+
+    Merge branch 'devNguyen' into devtruong
+
+[33mcommit e2c11c43bc88f0d1253a82c775088a3a13f2deab[m[33m ([m[1;31morigin/devNguyen[m[33m)[m
+Merge: 1ec68f1 8c4021e
+Author: truong0810 <truong8488@gmail.com>
+Date:   Sat Jul 5 10:20:22 2025 +0700
+
+    Merge branch 'devNguyen' of https://gitlab.com/cmspnp/2.api into devNguyen
+
+[33mcommit 40fabb00ac7b79d285028b935d911fea44ccde0f[m
+Author: Sonpn <apnpsolution@gmail.com>
+Date:   Sat Jul 5 04:12:00 2025 +0700
+
+    a
+
+[33mcommit 1ec68f1cb12f7232bab6d64c49c75aedb631daf7[m
+Author: truong0810 <truong8488@gmail.com>
+Date:   Sat Jul 5 03:50:52 2025 +0700
+
+    A
+
+[33mcommit 8c4021e0e7db5487eaae3f476fa8fe21579b602f[m
+Author: TBZ <tranbaoonguyen.tb@gmail.com>
+Date:   Fri Jul 4 16:40:10 2025 +0700
+
+    a
+
+[33mcommit e376249771af8a372674ebaaf122fa00083613c6[m
+Merge: 3113e4a 036b517
+Author: TBZ <tranbaoonguyen.tb@gmail.com>
+Date:   Fri Jul 4 14:28:24 2025 +0700
+
+    Merge branch 'devNguyen' of https://gitlab.com/cmspnp/2.api into devNguyen
+
+[33mcommit 3113e4a62ac5ea9944286548dd7d0fe8cea72e41[m
+Author: TBZ <tranbaoonguyen.tb@gmail.com>
+Date:   Fri Jul 4 14:24:44 2025 +0700
+
+    a
+
+[33mcommit e167acf01471750780a912d428fae62417a710db[m
+Author: truong0810 <truong8488@gmail.com>
+Date:   Thu Jul 3 21:59:05 2025 +0700
+
+    A
+
+[33mcommit 036b517f81d90bb5895064e7825ee2a2283328dd[m
+Merge: 8d99dc7 d01258f
+Author: truong0810 <truong8488@gmail.com>
+Date:   Thu Jul 3 12:03:52 2025 +0700
+
+    Merge branch 'devtruong' into devNguyen
+
+[33mcommit d01258fed5b47acba904cfe226b9910a4f204703[m
+Author: truong0810 <truong8488@gmail.com>
+Date:   Thu Jul 3 11:57:04 2025 +0700
+
+    A
+
+[33mcommit 8d99dc714c568df01e247d492575f29ffc40e20e[m
+Author: TBZ <tranbaoonguyen.tb@gmail.com>
+Date:   Thu Jul 3 10:04:22 2025 +0700
+
+    ncc
+
+[33mcommit 7e84beddd04c367407ed6a4fbf7a73004d44df4c[m
+Author: TBZ <tranbaoonguyen.tb@gmail.com>
+Date:   Thu Jul 3 09:02:32 2025 +0700
+
+    a
+
+[33mcommit f89c986c5a00db9aa5d27d559fdc211976654a2c[m
+Author: Sonpn <apnpsolution@gmail.com>
+Date:   Wed Jul 2 10:21:34 2025 +0700
+
+    A
+
+[33mcommit c57462d32a3cdfb67200990305dd1cfb68d3b84d[m
+Merge: 8a67eb0 4bb8114
+Author: Sonpn <apnpsolution@gmail.com>
+Date:   Wed Jul 2 10:17:25 2025 +0700
+
+    a
+
+[33mcommit 4bb81141e961022f7b573d40b26f098769bf203c[m[33m ([m[1;31morigin/devtruong2[m[33m, [m[1;32mdevtruong2[m[33m)[m
+Author: truong0810 <truong8488@gmail.com>
+Date:   Wed Jul 2 10:08:16 2025 +0700
+
+    a
+
+[33mcommit 8a67eb0991b292c3fbae25317a57184453902d85[m
+Author: Sonpn <apnpsolution@gmail.com>
+Date:   Wed Jul 2 10:03:46 2025 +0700
+
+    A
+
+[33mcommit 407e0e92153b06f3a8ff29013b92e3db73e5e1bd[m
+Merge: 9a6310e a25f607
+Author: Sonpn <apnpsolution@gmail.com>
+Date:   Wed Jul 2 08:39:26 2025 +0700
+
+    a
+
+[33mcommit 9a6310ee26e4a5da1c6d94e68ee547c3cc36e44a[m
+Author: Sonpn <apnpsolution@gmail.com>
+Date:   Wed Jul 2 08:17:17 2025 +0700
+
+    a
+
+[33mcommit 0d6e3eb1e9d80d9f991543ad67fc84937b9567f0[m
+Author: truong0810 <truong8488@gmail.com>
+Date:   Wed Jul 2 03:01:35 2025 +0700
+
+    A
+
+[33mcommit a25f607339ec3f19a1d36755ea60e1ef18ea0758[m[33m ([m[1;32mdevNguyen[m[33m)[m
+Merge: 55933b3 c223a43
+Author: TBZ <tranbaoonguyen.tb@gmail.com>
+Date:   Tue Jul 1 17:04:48 2025 +0700
+
+    a
+
+[33mcommit 20ac4090bec347992403d0c8419e91247f62b045[m
+Author: truong8488 <truong8488@gmail.com>
+Date:   Tue Jul 1 16:56:25 2025 +0700
+
+    A
+
+[33mcommit b5580f44a06c9efd2380f682dd22ca59bf4eb182[m
+Author: truong8488 <truong8488@gmail.com>
+Date:   Tue Jul 1 16:51:32 2025 +0700
+
+    A
+
+[33mcommit 55933b32e14bd4b7f3063a2125161edb96de61af[m
+Author: TBZ <tranbaoonguyen.tb@gmail.com>
+Date:   Tue Jul 1 16:38:33 2025 +0700
+
+    a
+
+[33mcommit c223a43739946060fc7f6990809e80b536ba74de[m
+Merge: ae959bc cb0e4ba
+Author: Sonpn <apnpsolution@gmail.com>
+Date:   Tue Jul 1 16:22:26 2025 +0700
+
+    Merge branch 'devtruong' into main
+
+[33mcommit ae959bc31ad5496f8eea386e4330f04597083523[m
+Merge: 2ecfbcd fe620a2
+Author: Sonpn <apnpsolution@gmail.com>
+Date:   Tue Jul 1 16:22:21 2025 +0700
+
+    asset model'
+
+[33mcommit cb0e4badf3ab2c2fb4ab097363645d6c9fdfd3e0[m
+Merge: df0b825 0f4ad8d
+Author: Sonpn <apnpsolution@gmail.com>
+Date:   Tue Jul 1 16:18:46 2025 +0700
+
+    Merge branch 'devtruong' of https://gitlab.com/cmspnp/2.api into devtruong
+
+[33mcommit 2ecfbcd32161c1762de23e98aafe49d1d895777d[m
+Author: Sonpn <apnpsolution@gmail.com>
+Date:   Tue Jul 1 16:18:17 2025 +0700
+
+    asset model'
+
+[33mcommit f936730b7ee9a0b295e29d162417f1ae9d466502[m
+Merge: fe620a2 0f4ad8d
+Author: TBZ <tranbaoonguyen.tb@gmail.com>
+Date:   Mon Jun 30 14:59:46 2025 +0700
+
+    Merge branch 'devtruong' into devNguyen
+
+[33mcommit 0f4ad8da3f5376f57957ccbd42d9523396606d23[m
+Author: truong8488 <truong8488@gmail.com>
+Date:   Mon Jun 30 14:48:51 2025 +0700
+
+    A
+
+[33mcommit fe620a28488aa97c054db4d57ccd4963b6119e4e[m
+Merge: 6a581b6 87ed24b
+Author: TBZ <tranbaoonguyen.tb@gmail.com>
+Date:   Mon Jun 30 11:27:38 2025 +0700
+
+    a
+
+[33mcommit 87ed24be665bd3ccce5f727210c72faa8af41ae9[m
+Author: truong8488 <truong8488@gmail.com>
+Date:   Mon Jun 30 10:10:07 2025 +0700
+
+    A
+
+[33mcommit 232e95b8f6566e886c4ebdb906299b6b813599d3[m
+Author: truong8488 <truong8488@gmail.com>
+Date:   Mon Jun 30 00:46:53 2025 +0700
+
+    a
+
+[33mcommit d555c90b894d3840681d6499a1ea20c91b4079b9[m
+Author: truong8488 <truong8488@gmail.com>
+Date:   Sun Jun 29 05:05:01 2025 +0700
+
+    A
+
+[33mcommit 1777cb55ae17ff7e72a9c48523fe09f092147d88[m
+Author: truong8488 <truong8488@gmail.com>
+Date:   Fri Jun 27 21:15:24 2025 +0700
+
+    A
+
+[33mcommit 6a581b6958a8af7534a119a220b86aced76dc09b[m
+Author: TBZ <tranbaoonguyen.tb@gmail.com>
+Date:   Fri Jun 27 16:34:26 2025 +0700
+
+    a
+
+[33mcommit df0b82552b08c18dffbb7507dbc17798ffc06a8d[m
+Author: Sonpn <apnpsolution@gmail.com>
+Date:   Wed Jun 25 19:53:08 2025 +0700
+
+    a
+
+[33mcommit 5e4d6def548e7ead5742d9fe322d175de1c545f9[m
+Author: truong8488 <truong8488@gmail.com>
+Date:   Wed Jun 25 17:53:25 2025 +0700
+
+    A
+
+[33mcommit 7f574d3075feee11445ce24d06d1336fca74a057[m
+Author: truong8488 <truong8488@gmail.com>
+Date:   Wed Jun 25 08:44:40 2025 +0700
+
+    merge main
+
+[33mcommit 888b2397020d21519f9cf0d20b4cf72c874e1a83[m
+Merge: ede4a40 984df88
+Author: truong8488 <truong8488@gmail.com>
+Date:   Wed Jun 25 08:44:07 2025 +0700
+
+    Merge branch 'main' into devtruong
+
+[33mcommit ede4a40804ea9dc5e2f60b950f09afbf6bd4d986[m
+Author: truong8488 <truong8488@gmail.com>
+Date:   Wed Jun 25 08:42:01 2025 +0700
+
+    a
+
+[33mcommit 984df883ee0ff6288664ff79afaca1f17572aae7[m
+Merge: c862fa6 da1dc4e
+Author: Sonpn <apnpsolution@gmail.com>
+Date:   Wed Jun 25 08:35:16 2025 +0700
+
+    A
+
+[33mcommit da1dc4e86b43e0e5b23a3834ee59b18600b35220[m
+Merge: f550430 d7e62f0
+Author: Sonpn <apnpsolution@gmail.com>
+Date:   Mon Jun 23 18:57:22 2025 +0700
+
+    Merge branch 'devtruong' of https://gitlab.com/cmspnp/2.api into devtruong
+
+[33mcommit c862fa6dbba63207e10d0c3d158af992e433514f[m
+Author: Sonpn <apnpsolution@gmail.com>
+Date:   Mon Jun 23 18:55:03 2025 +0700
+
+    a
+
+[33mcommit d7e62f044030b5b48811c99c294ad838e8d3d8d7[m
+Author: truong8488 <truong8488@gmail.com>
+Date:   Mon Jun 23 18:17:01 2025 +0700
+
+    A
+
+[33mcommit 0148c66067c21f4d9901b45b7cdd214b8473e643[m
+Author: TBZ <tranbaoonguyen.tb@gmail.com>
+Date:   Mon Jun 23 18:05:02 2025 +0700
+
+    a
+
+[33mcommit f550430eb9ef1a9a8b418a1316eee95f6ac5a3a5[m
+Author: Sonpn <apnpsolution@gmail.com>
+Date:   Mon Jun 23 13:28:12 2025 +0700
+
+    a
+
+[33mcommit 2f26a050ed15a6f2916a0cee5682ec2f293d339a[m
+Merge: c2d880e 5c6f3cf
+Author: Sonpn <apnpsolution@gmail.com>
+Date:   Mon Jun 23 13:21:33 2025 +0700
+
+    Merge branch 'devtruong' of https://gitlab.com/cmspnp/2.api into devtruong
+
+[33mcommit 5c6f3cf1a8023e009f8dc9382846a82bee72aaeb[m
+Author: truong

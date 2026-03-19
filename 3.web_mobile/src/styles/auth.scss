@@ -1,0 +1,49 @@
+.account-pages {
+  // padding-top: 3rem;
+  height: 100vh;
+  background-image: url('../assets/images/backgroundlogin.jpg');
+  background-size: cover;
+
+  .bg-soft-primary {
+    background-color: rgba(85, 110, 230, 0.25) !important;
+  }
+
+  .text-primary {
+    color: #556ee6 !important;
+  }
+
+  .avatar-md {
+    height: 4.5rem;
+    width: 4.5rem;
+  }
+
+  .profile-user-wid {
+    margin-top: -50px;
+  }
+
+  .avatar-title,
+  .custom-accordion .accordion-list {
+    -moz-box-align: center;
+    align-items: center;
+    display: -moz-box;
+    display: flex;
+  }
+
+  .avatar-title {
+    background-color: #556ee6;
+    color: #fff;
+    font-weight: 500;
+    height: 100%;
+    -moz-box-pack: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .rounded-circle {
+    border-radius: 50% !important;
+  }
+
+  .bg-light {
+    background-color: #eff2f7 !important;
+  }
+}

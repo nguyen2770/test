@@ -1,0 +1,52 @@
+.icon-right-header-create-ticket {
+  display: flex;
+  align-items: center;
+  margin-left: 8px; // đẩy sang phải cho thẳng hàng với tiêu đề
+
+  .anticon {
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+    transition: color 0.2s;
+    &:hover {
+      color: #ff8e53;
+    }
+  }
+
+  .btn-title-clear {
+    color: white;
+    font-size: 18px;
+    background-color: #23457b;
+    border: none;
+    font-weight: 600;
+    padding: 0 10px !important;
+    border-radius: 6px;
+    height: 32px;
+    cursor: pointer;
+    transition: background 0.2s;
+    display: flex;
+    align-items: center;
+    margin-top: 3px;
+    &:hover {
+      background-color: #ff8e53;
+    }
+  }
+}
+
+.create-ticket-btn {
+  background: linear-gradient(90deg, #ff6a6a 0%, #ff8e53 100%);
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  border: none;
+  border-radius: 24px;
+  height: 48px;
+  box-shadow: 0 2px 8px rgba(255, 106, 106, 0.15);
+  transition: background 0.2s;
+  margin-top: 16px;
+  &:hover,
+  &:focus {
+    background: linear-gradient(90deg, #ff8e53 0%, #ff6a6a 100%);
+    color: #fff;
+  }
+}

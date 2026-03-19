@@ -1,0 +1,46 @@
+.user-info-login-container {
+    height: 100%;
+    background-color: white;
+
+    .img-contact {
+        width: 100%;
+    }
+
+    .item-info-contact {
+        height: 60px;
+        border-bottom: 1px solid #f7f7f7;
+        display: flex;
+
+        .item-info-icon {
+            height: 50px;
+            width: 40px;
+            font-size: 25px;
+            line-height: 60px;
+            text-align: center;
+        }
+        .item-info-title {
+            font-size: 15px;
+            line-height: 60px;
+        }
+        .item-info-content {
+            height: 50px;
+            font-size: 18px;
+            font-weight: bold;
+            line-height: 60px;
+            text-align: center;
+            margin-left: auto;
+            margin-right: 10px;
+        }
+      
+    }
+    .item-info-contact-name {
+        line-height: 30px !important;
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+        margin-left: auto;
+        margin-right: 10px;
+        padding-top: 10px;
+        border-bottom: 1px solid #f7f7f7;
+    }
+}

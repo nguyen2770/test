@@ -1,0 +1,46 @@
+.timeline-card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 12px 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  line-height: 1.6;
+}
+.tabs-general-info {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tabs-section {
+  background: #e6f7ff;
+  padding: 10px 16px;
+  font-weight: 600;
+  margin: 20px 0 12px;
+  border-left: 4px solid #1890ff;
+  border-radius: 4px;
+  color: #004085;
+}
+
+.tabs-label {
+  font-weight: 500;
+  color: #555;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.tabs-value {
+  font-weight: 600;
+  color: #000;
+  display: block;
+  margin-bottom: 12px;
+  word-break: break-word;
+}
+
+.reason-cancel-ellipsis {
+  font-weight: 600;
+  color: #d4380d;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  display: inline-block;
+}

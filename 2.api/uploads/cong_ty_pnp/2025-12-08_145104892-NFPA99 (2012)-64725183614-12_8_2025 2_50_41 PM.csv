@@ -1,0 +1,150 @@
+﻿Procedure Name,NFPA99 (2012)
+Procedure Version,1
+,
+Asset ID,68c7736fde7e8f18c0b5a565
+Model,
+Serial Number,
+Manufacturer,
+,
+Result,Pass
+
+Title,Description,Result
+Test activity,,Neutral
+
+Name,FirstName,LastName,Username,Date
+Phuc Van,Phuc,Van,ppa64762@laoia.com,12/8/2025 2:45:05 PM
+Phuc Van,Phuc,Van,ppa64762@laoia.com,12/8/2025 2:49:51 PM
+
+Title,Description,Result
+Work order ID,,Neutral
+
+Input
+64725183614
+
+Title,Description,Result
+Service type,,Neutral
+
+ServiceType
+Preventive
+
+Title,Description,Result
+Asset information,,Neutral
+
+Asset ID,Manufacturer,Model,Serial Number,Firmware version,Last preventive maintenance date,Next preventive maintenance date,Medical device category,Created by,Created Date,Product code,Site,Asset Family
+68c7736fde7e8f18c0b5a565,,,,,,,,ppa64762@laoia.com,12/8/2025 2:44:25 PM,,,BIO
+
+Title,Description,Result
+Test device information,,Neutral
+
+Type,Test device name,Serial Number,Firmware version,Last Calibrated Date,Given calibration date,Calibration interval,Calibration due date
+
+Title,Description,Result
+Confirm the exterior of the DUT is clean and undamaged.,,Pass
+
+Text,Result
+Pass,Pass
+
+Title,Description,Result
+"Confirm the power cord, adapter (if applicable), and strain relief are undamaged.",,Pass
+
+Text,Result
+Pass,Pass
+
+Title,Description,Result
+Confirm the sensors and extension cables are clean and undamaged.,,Pass
+
+Text,Result
+Pass,Pass
+
+Title,Description,Result
+Electrical safety settings,,Neutral
+
+Medical device classification,Polarity switching delay,Delay before Power Off Time,Delay after Power On Time,Delay after Power Off Time,Halt before power off,Halt after power on,Halt after power off,Test optimization,Standard
+Class I,2,0,0,0,false,true,false,true,NFPA99
+
+Title,Description,Result
+Applied parts setup,"Configure Applied Parts Setup according to your DUT's applied part connections. ECG parts are configured as an example.
+",Neutral
+
+Lock Applied Part Setup
+false
+
+Type,Applied Part Name,# of Parts,Adapter,Test individually
+CF,ECG,5,false,false
+
+Title,Description,Result
+Mains voltage,,
+
+Halt on test failure
+true
+
+Test Point Name,Low limit,Unit,High limit,Unit,Result Value,Unit,Result Status,User Name,Date,Device Name,Device Serial Number
+Live to neutral,,V,,V,,V,Neutral,,,,
+Neutral to earth,,V,,V,,V,Neutral,,,,
+Live to earth,,V,,V,,V,Neutral,,,,
+
+Title,Description,Result
+Ground Wire Resistance,"While executing this test, you will be prompted to zero your test lead by connecting it from the RED V/Ω/A jack to the ∅/NULL jack on the Electrical Safety Analyzer.
+Once the test lead is successfully zeroed, connect it from the RED V/Ω/A jack to an Earthed conductive point on the patient monitor's enclosure.
+",
+
+Test current,Measurement leads,Require Lead Calibration,Halt on test failure
+200 mA,2-Wire,true,true
+
+Test Point Name,Low limit,Unit,High limit,Unit,Result Value,Unit,Result Status,User Name,Date,Device Name,Device Serial Number
+Test point 1,,Ω,0.5,Ω,,Ω,Neutral,,,,
+
+Title,Description,Result
+Ground Wire Leakage,,
+
+Measurement type,Applied parts,Halt on test failure
+AC/DC,Floating,true
+
+Test Point Name,Low limit,Unit,High limit,Unit,Result Value,Unit,Result Status,User Name,Date,Device Name,Device Serial Number
+Normal polarity,,µArms,10000,µArms,,µArms,Neutral,,,,
+
+Title,Description,Result
+Touch current," Before executing this test, connect a test lead from the RED V/Ω/A jack to a non-Earthed conductive point on the DUT's enclosure. 
+",
+
+Measurement type,Applied parts,Halt on test failure
+AC/DC,Floating,true
+
+Test Point Name,Low limit,Unit,High limit,Unit,Result Value,Unit,Result Status,User Name,Date,Device Name,Device Serial Number
+Normal polarity,,µArms,100,µArms,,µArms,Neutral,,,,
+"Normal polarity, Open earth",,µArms,500,µArms,,µArms,Neutral,,,,
+
+Title,Description,Result
+Lead-to-Ground Leakage Current,,
+
+Measurement type,Unused applied parts,Halt on test failure
+AC/DC,Floating,true
+
+Test Point Name,Measurement Name,Low limit,Unit,High limit,Unit,Result Value,Unit,Result Status,User Name,Date,Device Name,Device Serial Number
+Normal polarity,"ECG
+RA/R",,µArms,100,µArms,,µArms,Neutral,,,,
+Normal polarity,"ECG
+LL/F",,µArms,100,µArms,,µArms,Neutral,,,,
+Normal polarity,"ECG
+LA/L",,µArms,100,µArms,,µArms,Neutral,,,,
+Normal polarity,"ECG
+RL/N",,µArms,100,µArms,,µArms,Neutral,,,,
+Normal polarity,"ECG
+V1/C1",,µArms,100,µArms,,µArms,Neutral,,,,
+"Normal polarity, Open earth","ECG
+RA/R",,µArms,500,µArms,,µArms,Neutral,,,,
+"Normal polarity, Open earth","ECG
+LL/F",,µArms,500,µArms,,µArms,Neutral,,,,
+"Normal polarity, Open earth","ECG
+LA/L",,µArms,500,µArms,,µArms,Neutral,,,,
+"Normal polarity, Open earth","ECG
+RL/N",,µArms,500,µArms,,µArms,Neutral,,,,
+"Normal polarity, Open earth","ECG
+V1/C1",,µArms,500,µArms,,µArms,Neutral,,,,
+
+Title,Description,Result
+Confirm that you have filled out the inspection sticker and applied it to the DUT.,,Pass
+
+Text,Result
+Confirm,Pass
+

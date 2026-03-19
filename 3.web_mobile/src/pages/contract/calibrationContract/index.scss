@@ -1,0 +1,103 @@
+.view-amc-container {
+    min-height: 100vh;
+    background: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+
+    /* HEADER */
+    .view-amc-header {
+        height: 56px;
+        background: #23457b;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        padding: 0 16px;
+        font-size: 18px;
+        font-weight: 600;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+
+        .back-icon {
+            font-size: 22px;
+            margin-right: 16px;
+            cursor: pointer;
+        }
+    }
+
+    /* CONTENT */
+    .view-amc-content {
+        padding: 12px;
+    }
+
+    /* INFO CARD */
+    .info-card {
+        border-radius: 12px;
+        margin-bottom: 12px;
+
+        .info-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 0;
+            border-bottom: 1px solid #f0f0f0;
+
+            &:last-child {
+                border-bottom: none;
+            }
+
+            &.highlight {
+                background: #f0f7ff;
+                padding: 10px;
+                border-radius: 8px;
+
+                .info-value {
+                    color: #1890ff;
+                    font-weight: 700;
+                }
+            }
+
+            .info-label {
+                color: #888;
+                flex: 1;
+            }
+
+            .info-value {
+                flex: 1;
+                text-align: right;
+                font-weight: 500;
+                color: #333;
+                word-break: break-word;
+            }
+        }
+    }
+
+    /* ATTACHMENT */
+    .attachment-card {
+        border-radius: 12px;
+    }
+
+    /* LIST CARD */
+    .amc-mobile-card {
+        border-radius: 12px;
+        margin-bottom: 12px;
+        padding: 12px;
+        cursor: pointer;
+
+        .card-title {
+            font-weight: 600;
+            font-size: 16px;
+            color: #333;
+        }
+
+        .card-sub {
+            margin-top: 4px;
+            color: #555;
+        }
+
+        .card-date {
+            margin-top: 6px;
+            font-size: 13px;
+            color: #888;
+        }
+    }
+}

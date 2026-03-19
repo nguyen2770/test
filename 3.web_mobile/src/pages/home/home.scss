@@ -1,0 +1,52 @@
+.bt-logout {}
+
+.title-branch {
+    // line-height: 40px;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.bt-setup-app {
+    animation: zoom-in-zoom-out 1s ease infinite;
+}
+
+@keyframes zoom-in-zoom-out {
+    0% {
+        transform: scale(1, 1);
+    }
+
+    50% {
+        transform: scale(1.2, 1.2);
+    }
+
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+.home-container {
+    .preventive-card {
+        background-color: #4680ff !important;
+    }
+
+    .breakdown-card {
+        background-color: green !important;
+    }
+
+    .my-task-card {
+        background-color: purple !important;
+    }
+
+    .my-breakdown-card {
+        background-color: #00bcd4 !important;
+    }
+}
+.info-box {
+  background: #f8f9fb;
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 14px;
+  color: #333;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05);
+}

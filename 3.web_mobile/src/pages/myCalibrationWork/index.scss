@@ -1,0 +1,233 @@
+.my-breakdown-container {
+  .header-my-breakdown {
+    background: #23305a; // hoặc màu nền header của bạn
+
+    .title-my-breakdown {
+      padding-left: 20px;
+      color: white;
+    }
+  }
+
+  .my-breakdown-status {
+    padding: 10px;
+
+    .sort-btn {
+      border: #10426d solid 2px;
+      border-radius: 12px !important;
+      font-weight: 400;
+    }
+
+    .icon-filter {
+      align-items: "center";
+      font-size: 22px;
+      cursor: pointer;
+      margin-left: 7px;
+    }
+  }
+
+  .image-asset {
+    width: 100%;
+    border-radius: 5px;
+  }
+
+  .description-breakdown {
+    font-weight: 600;
+    font-size: 16px;
+  }
+
+  .more-info-brackdown {
+    .ant-col {
+      font-size: 12px !important;
+    }
+  }
+
+  .status-breakdown {
+    font-weight: 500;
+
+    .ant-radio-button-wrapper-checked,
+    .ant-radio-button-wrapper-checked:hover,
+    .ant-radio-button-wrapper:not(:first-child)::before {
+      border: none !important;
+    }
+
+    .ant-radio-button-wrapper::before {
+      display: none !important;
+    }
+
+    .ant-radio-button-wrapper {
+      border-start-end-radius: unset !important;
+      border-end-end-radius: unset !important;
+      border-start-start-radius: unset !important;
+      border-end-start-radius: unset !important;
+      background-color: #10426d !important;
+      border-bottom-color: #10426d !important;
+      border-top-color: #10426d !important;
+      color: #abb5bd !important;
+      background-color: #ffffff !important;
+      border: unset !important;
+      border-left: unset !important;
+      border-right: unset !important;
+      border-color: #10426d !important;
+    }
+
+    .ant-radio-button-wrapper-checked {
+      color: white !important;
+      background-color: #10426d !important;
+      border-color: #10426d !important;
+      border-bottom-color: red !important;
+    }
+
+    .ant-radio-button-wrapper-checked::before {
+      background-color: #10426d !important;
+    }
+  }
+}
+
+.status-breakdown-assign-user {
+  font-weight: 600;
+  padding: 10px;
+
+  .ant-radio-button-wrapper {
+    border-radius: 0 !important;
+    border: none !important;
+    background: #10426d !important;
+    color: #4e6c84 !important;
+    box-shadow: none !important;
+  }
+
+  .ant-radio-button-wrapper:not(:first-child)::before {
+    display: none !important;
+  }
+
+  .ant-radio-button-wrapper-checked,
+  .ant-radio-button-wrapper-checked:hover,
+  .ant-radio-button-wrapper-checked:focus,
+  .ant-radio-button-wrapper-checked:focus-within,
+  .ant-radio-button-wrapper-checked:active {
+    color: #fff !important;
+    background: #10426d !important;
+    box-shadow: none !important; // chặn shadow/border mặc định
+    border: none !important;
+    border-bottom: 3px solid #ff6d00 !important;
+  }
+}
+
+.ticket-card {
+  background-color: #f5f5f7;
+
+  .btn-breakdown {
+    border-radius: 20px;
+    font-weight: 410;
+  }
+}
+
+.check-in-button {
+  background: linear-gradient(90deg, #ff6161 0%, #ff7b7b 100%);
+  color: #fff;
+  border: none;
+  border-radius: 24px;
+  padding: 13px 35px;
+  font-weight: 550;
+  font-size: 16px;
+  margin-right: 12px;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.check-out-button {
+  background: linear-gradient(90deg, #ff6161 0%, #ff7b7b 100%);
+  color: #fff;
+  border: none;
+  border-radius: 24px;
+  padding: 13px 35px;
+  font-weight: 550;
+  font-size: 16px;
+  margin-left: 12px;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.check-in-disable {
+  background: #eee !important;
+  color: #888 !important;
+  cursor: not-allowed !important;
+  opacity: 0.7 !important;
+}
+
+.check-out-disable {
+  background: #eee !important;
+  color: #888 !important;
+  cursor: not-allowed !important;
+  opacity: 0.7 !important;
+}
+
+.btn-attchment {
+  background: #ebe7e7;
+  border-radius: 4px;
+  padding: 8px 12px;
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 8px;
+  text-align: center;
+}
+
+
+.form-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 16px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.form-select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #ffffff;
+  border-radius: 6px;
+  margin-bottom: 16px;
+  font-size: 14px;
+}
+
+.form-textarea {
+  width: 100%;
+  min-height: 100px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 24px;
+  resize: vertical;
+  font-size: 14px;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #27ae60;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.submit-button:hover {
+  background-color: #219653;
+}
+
+.ant-picker-dropdown .ant-picker-panel-container {
+  margin: 0px !important;
+  margin-top: 150px !important;
+}

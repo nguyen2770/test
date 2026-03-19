@@ -1,0 +1,20 @@
+.VerifyApp-page {
+    .spin-loading-verify {
+        height: 100vh;
+        position: absolute;
+        z-index: 9999;
+        background: white;
+        width: 100%;
+        align-content: center;
+
+        .ant-spin {
+            width: 100% !important;
+        }
+
+        .spin-img-verify {
+            width: 100px !important;
+            margin-left: auto;
+            nav-right: auto;
+        }
+    }
+}

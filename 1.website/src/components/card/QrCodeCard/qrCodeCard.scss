@@ -1,0 +1,32 @@
+.qr-code-card-container {
+    width: 100%;
+    border: 1px solid;
+    text-align: center;
+
+    .asset-maintenance-customer-name {
+        border-bottom: 1px solid;
+        font-weight: 600;
+    }
+
+    .asset-maintenance-qrcode {
+        padding: 8px;
+        text-align: center;
+        border-bottom: 1px solid;
+
+        svg {
+            width: 100% !important;
+            height: 100% !important;
+        }
+    }
+
+    .asset-maintenance-asset-name {
+        border-bottom: 1px solid;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .asset-maintenance-asset-number {
+        text-align: center;
+        font-weight: 600;
+    }
+}

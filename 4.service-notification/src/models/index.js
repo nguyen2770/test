@@ -1,0 +1,13 @@
+module.exports.CalibrationAssignUserModel = require("./calibration/calibrationAssignUser.model");
+module.exports.CalibrationWorkModel = require("./calibration/calibrationWork.model");
+module.exports.CalibrationWorkAssignUserModel = require("./calibration/calibrationWorkAssignUser.model");
+module.exports.SchedulePreventiveModel = require("./preventive/schedulePreventive.model");
+module.exports.SchedulePreventiveTaskModel = require("./preventive/schedulePreventiveTask.model");
+module.exports.SchedulePreventiveTaskAssignUserModel = require("./preventive/schedulePreventiveTaskAssignUser.model");
+module.exports.BreakdownModel = require("./common/breakdown.model");
+module.exports.BreakdownAssignUserModel = require("./common/breakdownAssignUser.model");
+module.exports.AssetMaintenanceModel = require("./common/assetMaintenance.model");
+module.exports.NotificationAssetMaintenanceSparePartModel = require("./notification/notificationAssetMaintenanceSparePart.model");
+module.exports.HistoryAssetMaintenanceSparePartModel = require("./common/historyAssetMaintenanceSparePart.model");
+module.exports.AssetModelSparePartModel = require("./assets/assetModelSparePart.model");
+module.exports.SparePartModel = require("./sparePart/spareParts.model");

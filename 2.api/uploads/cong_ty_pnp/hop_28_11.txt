@@ -1,0 +1,17 @@
+1. xem chi tiết hợp đồng ở mobie
+3. chỉnh lại gặp vấn đề tạo sự cố -> fail(tạo sự cố)
+4. thêm chuyển đổi hợp đồng hiệu chuẩn trong lập kế hoạch hiệu chuẩn
+5. xác nhận công việc hiệu chuẩn => thêm trường lưu lại giờ thực tế từ lúc hiệu chuẩn đến lúc kết thúc
+				thêm nút ẩn hiện nhập lại giờ  (của cả sự cố, bảo trì, hiệu chuẩn)
+6. lịch sử hiệu chuẩn thêm nút xem thêm chi tiết 
+7. menu không ăn theo link bấm
+8. bỏ cột kiểu tài sản trong quản lý bảo trì tài sản
+9. gộp thẻ giám sát và bảo trì vào vs nhau đặt tên là giám sát
+
+
+
+
+
+
+
+

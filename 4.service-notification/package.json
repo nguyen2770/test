@@ -1,0 +1,23 @@
+{
+  "name": "4.service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "expo-server-sdk": "^4.0.0",
+    "http-status": "^2.1.0",
+    "joi": "^18.0.2",
+    "mongoose": "^9.0.2",
+    "node-cron": "^4.2.1",
+    "web-push": "^3.6.7",
+    "winston": "^3.19.0"
+  }
+}

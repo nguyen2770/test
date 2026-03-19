@@ -1,0 +1,29 @@
+Thay thế phụ tùng
+trạng thái breakdownAsignUser: Đang tiến hành
+trạng thái của breakdownSpareRequest: Phụ tùng đã được thanh thế
+
+Yêu cầu phụ tùng
+trạng thái breakdownAsignUser: Chờ gửi phụ tùng
+trạng thái của breakdownSpareRequest: Chờ gửi phụ tùng
+	Từ chối phụ tùng
+	trạng thái breakdownAsignUser: Đang tiến hành 
+	trạng thái của breakdownSpareRequest: Đã từ chối
+
+	Gửi phụ tùng cho người yêu cầu
+	trạng thái công việc: Đã gửi phụ tùng
+	trạng thái breakdownAsignUser: Phụ tùng đã được gửi đi
+	trạng thái của breakdownSpareRequest: Phụ tùng đã được gửi đi
+	
+	Gửi cho người khác (không có người yêu cầu)
+	trạng thái công việc: Đã gửi phụ tùng
+	trạng thái breakdownAsignUser: Đã thay thế
+	trạng thái của breakdownSpareRequest: Phụ tùng đã được gửi đi
+
+	Gửi cho người khác (có người yêu cầu)
+	trạng thái công việc: Đã gửi phụ tùng
+	trạng thái breakdownAsignUser: Phụ tùng đã được gửi đi
+	trạng thái của breakdownSpareRequest: Phụ tùng đã được gửi đi
+
+
+
+

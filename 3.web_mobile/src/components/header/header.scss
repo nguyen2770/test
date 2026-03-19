@@ -1,0 +1,28 @@
+.header-base-container {
+    height: 60px;
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+    // display: flex;
+    // justify-content: space-between;
+
+    .header-title {
+        text-align: center;
+        line-height: 60px;
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .right-content-container {
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 60px;
+    }
+
+    .left-content-container {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 60px;
+    }
+}

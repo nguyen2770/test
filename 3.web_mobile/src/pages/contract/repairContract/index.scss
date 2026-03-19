@@ -1,0 +1,110 @@
+.view-repair-container {
+    background: #10426d;
+    min-height: 100vh;
+
+    .content-view-repair {
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+    }
+
+    .info-card {
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+        .card-title {
+            font-weight: 600;
+            color: #10426d;
+            margin-bottom: 12px;
+        }
+
+        .checkbox-row .custom-checkbox .checkbox-label {
+            color: #555;
+        }
+
+        .info-list {
+            .info-row {
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                padding: 8px 0;
+                border-bottom: 1px solid #f0f0f0;
+
+                &:last-child {
+                    border-bottom: none;
+                }
+
+                .info-label {
+                    color: #888;
+                    flex: 1;
+                }
+
+                .info-value {
+                    font-weight: 500;
+                    color: #333;
+                    flex: 1;
+                    text-align: right;
+                    word-break: break-word;
+                }
+            }
+        }
+    }
+
+    .spare-collapse {
+        border: none;
+        background: transparent;
+
+        .ant-collapse-header {
+            padding: 8px 0 !important;
+            font-weight: 600;
+            color: #10426d;
+        }
+
+        .ant-collapse-content-box {
+            padding: 8px 0 !important;
+        }
+    }
+
+    .spare-card {
+        margin-bottom: 8px;
+        border-radius: 6px;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        .spare-index {
+            width: 28px;
+            height: 28px;
+            background: #10426d;
+            color: #fff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+        }
+
+        .spare-code {
+            color: #666;
+            margin-bottom: 2px;
+
+            b {
+                color: #333;
+            }
+        }
+
+        .spare-name {
+            color: #333;
+            font-weight: 500;
+        }
+    }
+
+    .mt-2 {
+        margin-top: 12px;
+    }
+}

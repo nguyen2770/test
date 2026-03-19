@@ -1,0 +1,26 @@
+.promotion-container {
+    position: absolute;
+    top: 110px;
+    z-index: 99999;
+    left: 10px;
+    right: 10px;
+    border-radius: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+    .img-promotion {
+        width: 100% !important;
+        border-radius: 10px;
+    }
+
+    .slick-dots-bottom {
+        bottom: -28px !important;
+    }
+
+    .slick-active button {
+        background: green !important;
+    }
+
+    .slick-dots li button {
+        background: green !important;
+    }
+}

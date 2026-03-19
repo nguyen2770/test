@@ -1,0 +1,308 @@
+.amc-service-collapse {
+    border-radius: 8px;
+    overflow: hidden;
+
+    .ant-collapse-header {
+        padding: 12px ! important;
+        background: #fafafa;
+    }
+
+    .service-header {
+        .service-name {
+            margin-bottom: 12px;
+            color: #10426d;
+        }
+
+        .service-info-grid {
+            .info-item {
+                display: flex;
+                flex-direction: column;
+                padding: 4px 0;
+
+                .info-label {
+                    color: #888;
+                    margin-bottom: 2px;
+                }
+
+                .info-value {
+                    font-weight: 600;
+                    color: #333;
+                }
+
+                &.total-price {
+                    background: #f0f7ff;
+                    padding: 8px;
+                    border-radius: 6px;
+                    margin-top: 4px;
+
+                    .price {
+                        color: #1890ff;
+                    }
+                }
+            }
+        }
+    }
+
+    .service-tasks-list {
+        .task-card {
+            margin-bottom: 8px;
+            border-radius: 6px;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+
+            .task-index {
+                width: 28px;
+                height: 28px;
+                background: #10426d;
+                color: #fff;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-weight: 600;
+            }
+
+            .task-name {
+                color: #333;
+                margin-bottom: 4px;
+                word-break: break-word;
+            }
+
+            .task-price {
+                color: #666;
+
+                b {
+                    color: #1890ff;
+                }
+            }
+        }
+    }
+}
+
+.view-amc-container {
+    background: #10426d;
+    min-height: 100vh;
+
+    .header-view-amc {
+        padding: 12px;
+        background: #10426d;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+
+        .back-btn {
+            color: #fff;
+
+        }
+
+        .title-view-amc {
+            margin: 0;
+            color: #fff;
+         
+            font-weight: 600;
+        }
+    }
+
+    .content-view-amc {
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+    }
+
+    .info-card {
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+        .card-title {
+         
+            font-weight: 600;
+            color: #10426d;
+            margin-bottom: 12px;
+        }
+
+        .checkbox-row {
+            .custom-checkbox {
+                .checkbox-label {
+                 
+                    color: #555;
+                }
+            }
+        }
+
+        .info-list {
+            .info-row {
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                padding: 8px 0;
+                border-bottom: 1px solid #f0f0f0;
+
+                &:last-child {
+                    border-bottom: none;
+                }
+
+                .info-label {
+           
+                    color: #888;
+                    flex: 1;
+                }
+
+                .info-value {
+                   
+                    font-weight: 500;
+                    color: #333;
+                    flex: 1;
+                    text-align: right;
+                    word-break: break-word;
+                }
+            }
+        }
+    }
+
+    .spare-collapse {
+        border: none;
+        background: transparent;
+
+        .ant-collapse-header {
+            padding: 8px 0 ! important;
+            font-weight: 600;
+            color: #10426d;
+        }
+
+        .ant-collapse-content-box {
+            padding: 8px 0 !important;
+        }
+    }
+
+    .spare-card {
+        margin-bottom: 8px;
+        border-radius: 6px;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        .spare-index {
+            width: 28px;
+            height: 28px;
+            background: #10426d;
+            color: #fff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+   
+            font-weight: 600;
+        }
+
+        .spare-code {
+            color: #666;
+            margin-bottom: 2px;
+            b {
+                color: #333;
+            }
+        }
+
+        .spare-name {
+            color: #333;
+            font-weight: 500;
+        }
+    }
+
+    .services-list {
+        margin-top: 12px;
+    }
+
+    .total-card {
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+        .card-title {
+            font-weight: 600;
+            color: #10426d;
+            margin-bottom: 12px;
+        }
+
+        .total-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0;
+            border-bottom: 1px solid #f0f0f0;
+
+            .total-row-left {
+                display: flex;
+                align-items: center;
+                flex: 1;
+
+                .total-index {
+                    width: 24px;
+                    height: 24px;
+                    background: #e6f7ff;
+                    color: #1890ff;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-weight: 600;
+                    margin-right: 10px;
+                }
+
+                .total-name {
+                    color: #333;
+                }
+            }
+
+            .total-price {
+                font-weight: 600;
+                color: #1890ff;
+            }
+        }
+
+        .grand-total {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px;
+            background: #f0f7ff;
+            border-radius: 8px;
+
+            .grand-total-label {
+                font-weight: 600;
+                color: #333;
+            }
+
+            .grand-total-value {
+                font-weight: 700;
+                color: #1890ff;
+            }
+        }
+    }
+
+    .section-divider {
+        .ant-divider {
+            color: #10426d;
+            font-weight: 600;
+
+            &::before,
+            &::after {
+                border-color: #10426d;
+            }
+        }
+    }
+
+    .mt-2 {
+        margin-top: 12px;
+    }
+
+    .mt-3 {
+        margin-top: 16px;
+    }
+}

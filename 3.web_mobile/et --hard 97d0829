@@ -1,0 +1,37 @@
+[33m27ef093[m[33m ([m[1;36mHEAD -> [m[1;32mdevtruong[m[33m, [m[1;31morigin/devNguyen[m[33m, [m[1;32mdevNguyen[m[33m)[m HEAD@{0}: reset: moving to devNguyen
+[33m1cee341[m[33m ([m[1;31morigin/devtruong[m[33m)[m HEAD@{1}: checkout: moving from devtruong to devtruong
+[33m1cee341[m[33m ([m[1;31morigin/devtruong[m[33m)[m HEAD@{2}: checkout: moving from devNguyen to devtruong
+[33m27ef093[m[33m ([m[1;36mHEAD -> [m[1;32mdevtruong[m[33m, [m[1;31morigin/devNguyen[m[33m, [m[1;32mdevNguyen[m[33m)[m HEAD@{3}: checkout: moving from devtruong to devNguyen
+[33m1cee341[m[33m ([m[1;31morigin/devtruong[m[33m)[m HEAD@{4}: commit: A
+[33mb64bd64[m HEAD@{5}: commit (merge): A
+[33m60ecd30[m HEAD@{6}: commit: A
+[33m27ef093[m[33m ([m[1;36mHEAD -> [m[1;32mdevtruong[m[33m, [m[1;31morigin/devNguyen[m[33m, [m[1;32mdevNguyen[m[33m)[m HEAD@{7}: reset: moving to devNguyen
+[33md4fda5e[m HEAD@{8}: reset: moving to devtruong
+[33md4fda5e[m HEAD@{9}: checkout: moving from devNguyen to devtruong
+[33m27ef093[m[33m ([m[1;36mHEAD -> [m[1;32mdevtruong[m[33m, [m[1;31morigin/devNguyen[m[33m, [m[1;32mdevNguyen[m[33m)[m HEAD@{10}: checkout: moving from devtruong to devNguyen
+[33md4fda5e[m HEAD@{11}: checkout: moving from devNguyen to devtruong
+[33m27ef093[m[33m ([m[1;36mHEAD -> [m[1;32mdevtruong[m[33m, [m[1;31morigin/devNguyen[m[33m, [m[1;32mdevNguyen[m[33m)[m HEAD@{12}: checkout: moving from devtruong to devNguyen
+[33md4fda5e[m HEAD@{13}: checkout: moving from devNguyen to devtruong
+[33m27ef093[m[33m ([m[1;36mHEAD -> [m[1;32mdevtruong[m[33m, [m[1;31morigin/devNguyen[m[33m, [m[1;32mdevNguyen[m[33m)[m HEAD@{14}: checkout: moving from devtruong to devNguyen
+[33md4fda5e[m HEAD@{15}: commit: A
+[33m97d0829[m HEAD@{16}: commit (merge): A
+[33m0adf679[m HEAD@{17}: checkout: moving from devNguyen to devtruong
+[33m27ef093[m[33m ([m[1;36mHEAD -> [m[1;32mdevtruong[m[33m, [m[1;31morigin/devNguyen[m[33m, [m[1;32mdevNguyen[m[33m)[m HEAD@{18}: checkout: moving from devtruong to devNguyen
+[33m0adf679[m HEAD@{19}: checkout: moving from main to devtruong
+[33m472fc66[m[33m ([m[1;32mmain[m[33m)[m HEAD@{20}: checkout: moving from devtruong to main
+[33m0adf679[m HEAD@{21}: commit: a
+[33mf08809d[m HEAD@{22}: commit: A
+[33m53da55b[m HEAD@{23}: pull: Merge made by the 'ort' strategy.
+[33mb0676d5[m HEAD@{24}: commit: A
+[33m8a0ba63[m HEAD@{25}: commit (merge): A
+[33m05b95e7[m HEAD@{26}: checkout: moving from main to devtruong
+[33m472fc66[m[33m ([m[1;32mmain[m[33m)[m HEAD@{27}: commit (merge): a
+[33mfda0672[m HEAD@{28}: checkout: moving from devtruong to main
+[33m05b95e7[m HEAD@{29}: commit: A
+[33m2601a93[m HEAD@{30}: commit: A
+[33me4faa33[m HEAD@{31}: pull: Merge made by the 'ort' strategy.
+[33m0257e87[m HEAD@{32}: commit: A
+[33m1cb2378[m HEAD@{33}: commit: A
+[33m7763b99[m HEAD@{34}: checkout: moving from main to devtruong
+[33mfda0672[m HEAD@{35}: commit: A
+[33mb202235[m HEAD@{36}: clone: from https://gitlab.com/cmspnp/3.web_mobile.git
